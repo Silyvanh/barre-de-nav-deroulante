@@ -2,14 +2,18 @@
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   color: white;
-  font-size: 11px;
+  font-size: 12px;
   margin: 0;
   padding: 0;
 }
 
+header {
+  background: #666664;
+  height: 120px;
+}
 
-.debut {
-  font-size: 16px;
+.monbeau {
+  font-size: 20px;
 }
 
 .logo {
@@ -18,26 +22,32 @@
   width: 80px;
   height: 80px;
   color: black;
+  font-weight: bold;
   border-radius: 100%;
-  font-size: 16px;
+  font-size: 22px;
   text-align: center;
 }
 
-#menu {
+ul {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  background: #666664;
-  height: 120px;
+  width: 60%;
+  align-items: baseline;
+  margin: 50px auto;
+  padding-top: 20px;
 }
 
 li {
+  display: flex;
+  align-items: center;
   list-style: none;
+  float: left;
+  margin-right: 11px;
 }
 
-#menu a {
+
+a {
   text-decoration: none;
-  display: block;
 }
 
 a:hover {
