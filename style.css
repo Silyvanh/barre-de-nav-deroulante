@@ -21,11 +21,15 @@ header {
   background-color: #FEC400;
   width: 80px;
   height: 80px;
-  color: black;
   font-weight: bold;
   border-radius: 100%;
+  display: flex;
+}
+
+p {
+  margin: auto;
+  color: black;
   font-size: 22px;
-  text-align: center;
 }
 
 ul {
